@@ -13,8 +13,6 @@ namespace MyFirstWebApplication
         protected void Page_Load(object sender, EventArgs e)
         {
             lblEnvironment.Text = WebConfigurationManager.AppSettings["local"];
-
-            //Console.WriteLine
         }
     }
 }
